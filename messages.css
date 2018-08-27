@@ -1,0 +1,129 @@
+#container {
+  text-align: center;
+}
+
+#okay {
+  background-color: #E9E9E9;
+}
+
+#leftokay {
+  /*background-color: #EECFDB;*/
+}
+
+#okay, #leftokay {
+  margin: 0px;
+  width: 90%;
+  padding: 5%;
+  margin-bottom: 1.0em;
+  text-align: left;
+  overflow: none;
+  position: relative;
+}
+
+#totheright {
+  display: inline-block;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 2.0em;
+  vertical-align: middle;
+}
+
+#totheleftsmall {
+  display: inline-block;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 2.0em;
+  vertical-align: middle;
+}
+
+#totheleftbig {
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  margin-top: 2.0em;
+  vertical-align: middle;
+}
+
+#okayTwo {
+  display: none;
+}
+
+#date {
+  display: block;
+  text-align:left;
+  padding: 1em;
+  font-size: 8pt;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+
+#form {
+  text-align:center;
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 1em;
+  /*background-color: #E9E9E9;*/
+}
+
+#newMessage {
+  width: 100%;
+  border-radius: 4px;
+  min-height: 100px;
+}
+
+#message {
+  min-height: 10%;
+  overflow: auto;
+  padding: 1.5em;
+}
+
+
+/**************************************
+USED BY LARGE LAYOUT
+*************************************/
+@media screen and (min-width: 800px)
+{
+  #okay, #leftokay {
+    padding: 2%;
+    width: 96%;
+    overflow: auto;
+    text-align: left;
+  }
+
+  #okay {
+    /*border-left: 0.8em solid #FFFFFF;
+    border-top: 0.8em solid ;*/
+  }
+
+  #leftokay {
+    /*border-right: 0.8em solid #FFFFFF;
+    border-top: 0.8em solid ;*/
+  }
+
+  #totheleftbig {
+    display: inline-block;
+    width: 80%;
+  }
+
+  #totheright {
+    width: 80%;
+  }
+
+  #okayTwo{
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    padding-top: 2em;
+  }
+
+  #conversationList {
+    text-align: left;
+    max-height: 400px;
+    overflow: auto;
+  }
+
+}
